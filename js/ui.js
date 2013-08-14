@@ -2,6 +2,8 @@ $(document).ready(function(){
 
 	var draggedText;
 
+	//$(".instance").attr('title', 'This is the hover-over text');
+
 	$('.draggable').draggable({cursor: 'pointer' , revert: true, opacity: 0.6, start: function(){
 
 		draggedText = $(this).text();

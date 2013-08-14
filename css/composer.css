@@ -64,3 +64,23 @@ a:hover{
 	background-color: rgb(253, 171, 26);
 	cursor: pointer;
 }
+
+li[title]:hover:after {
+	z-index: 999;
+  content: attr(title);
+  font-size: 14px;
+  padding: 4px 8px;
+  color: white;
+  
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-color: black;
+
+}
