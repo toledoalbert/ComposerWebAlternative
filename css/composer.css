@@ -1,3 +1,7 @@
+a:hover{
+	text-decoration: none;
+}
+
 #home-container{
 	margin-top: 50px;
 }
@@ -8,11 +12,55 @@
 }
 
 #behaviorZone{
-	background-color: grey;
 	min-height: 500px;
 }
 
 #dropArea{
-	background-color: yellow;
-	min-height: 400px;
+	min-height: 500px;
+	background-color: rgb(241, 241, 241);
+	border-radius: 3px;
+}
+
+#nodesList{
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+#nodesList li{
+
+	width: 100%;
+	background-color: rgb(221, 221, 221);
+	border-radius: 6px;
+	margin-bottom: 3px;
+	list-style: none;
+	border-bottom: 2px solid rgb(211, 211, 211);
+	font-size: 20px;
+	min-height: 30px;
+	padding-top: 10px;
+	padding-left: 15px;
+	color: rgb(116, 116, 116);
+	font-weight: lighter;
+
+}
+
+#nodesList li:hover{
+	background-color: rgb(184, 184, 184);
+}
+
+.dropOver{
+	border-style: dotted;
+	border-color: grey;
+}
+
+.nodeInstance{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(255, 184, 0);
+	border-radius: 50px;
+	color: white;
+}
+
+.nodeInstance:hover{
+	background-color: rgb(253, 171, 26);
+	cursor: pointer;
 }

@@ -40,27 +40,37 @@
 
     <div class="row-fluid">
 
-      <div id="nodeList" class="span3">
-        <div class="container-fluid">
+      <div class="span3">
+
           <h3>Standard Nodes</h3>
-          <ul id="sortable">
-            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>SoundNode</li>
-            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>SpeechNode</li>
-            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>StateNode</li>
-            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>LedNode</li>
-            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>PilotNode</li>
+
+          <ul id="nodesList" class="sortable">
+            <a href="#" ><li class="draggable instance">SoundNode</li> </a>
+            <a href="#" ><li class="draggable instance">SpeechNode</li> </a>
+            <a href="#" ><li class="draggable instance">StateNode</li> </a>
+            <a href="#" ><li class="draggable instance">LedNode</li> </a>
+            <a href="#" ><li class="draggable instance">PilotNode</li> </a>
           </ul>
-        </div>
+
+          <h3>Standard Transitions</h3>
+
+          <ul id="nodesList" class="sortable">
+            <a href="#" ><li class="draggable instance">Completion</li> </a>
+            <a href="#" ><li class="draggable instance">Button</li> </a>
+            <a href="#" ><li class="draggable instance">Timeout</li> </a>
+            <a href="#" ><li class="draggable instance">Null</li> </a>
+          </ul>
+      
       </div>
 
       <div id="behaviorZone" class="span9">
-        <div class="container-fluid">
-          <h2>MyBehavior</h2>
-          <div id="dropArea" class="container-fluid span11 droppable">
-            
+        
+          <h2 style="margin-left:22px;">MyBehavior</h2>
+          <div id="dropArea" class="span11 droppable">
+          
             
           </div>
-        </div>
+      
       </div>
 
 
