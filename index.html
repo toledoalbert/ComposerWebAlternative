@@ -8,7 +8,7 @@
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link rel="stylesheet" href="css/wynez.css">
+  <link rel="stylesheet" href="css/composer.css">
 
 </head>
 
@@ -36,7 +36,39 @@
   </div>
 
   <!-- end navbar -->
-  <h1>Tekkotsu State Machine Composer</h1>
+  <div class="container-fluid" id="home-container">
+
+    <div class="row-fluid">
+
+      <div id="nodeList" class="span3">
+        <div class="container-fluid">
+          <h3>Standard Nodes</h3>
+          <ul id="sortable">
+            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>SoundNode</li>
+            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>SpeechNode</li>
+            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>StateNode</li>
+            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>LedNode</li>
+            <li class="draggable"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>PilotNode</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="behaviorZone" class="span9">
+        <div class="container-fluid">
+          <h2>MyBehavior</h2>
+          <div id="dropArea" class="container-fluid span11 droppable">
+            
+            
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </div>
   
 
 
@@ -45,6 +77,7 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
+  <script src="js/ui.js"></script>
 
 </body>
 </html>

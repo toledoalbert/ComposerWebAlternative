@@ -1,0 +1,18 @@
+#home-container{
+	margin-top: 50px;
+}
+
+#nodeList{
+	background-color: grey;
+	min-height: 500px;
+}
+
+#behaviorZone{
+	background-color: grey;
+	min-height: 500px;
+}
+
+#dropArea{
+	background-color: yellow;
+	min-height: 400px;
+}
